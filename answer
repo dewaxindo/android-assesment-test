@@ -1,4 +1,25 @@
-2. Pada Android Manifest
-3. A.onCreate() - A.onStart() - A.onResume() - A.onPause() - B.onCreate() - B.onStart() - B.onResume() - A.onStop()
-4.
-5. Akan muncul text pada layar "Finishing"
+1) Relative Layout
+2) Pada Android Manifest
+3) A.onCreate() - A.onStart() - A.onResume() - A.onPause() - B.onCreate() - B.onStart() - B.onResume() - A.onStop()
+4) menggunakan fungsi OnDestroy()
+5) Akan muncul text pada layar "Finishing"
+6) <uses-permission android:name= "android.permission.CALL_USER"/> menjadi <uses-permission android:name= "android.permission.CALL_USER">
+
+7) public static void checkAnagram(String str1, String str2) {
+    char[] chars1 = str1.toLowerCase().toCharArray();
+    char[] chars2 = str2.toLowerCase().toCharArray();
+    Arrays.sort(chars1);
+    Arrays.sort(chars2);
+
+    if (Arrays.equals(chars1, chars2)) {
+        System.out.println(str1 + " dan " + str2 + " adalah Anagram");
+    } else {
+        System.out.println(str1 + " dan " + str2 + " bukan merupakan Anagram");
+    }
+}
+
+8)<script type="text/javascript">
+    var dumet = "saaayyyyaaa aaaannnaaakkk sssssehhhhaaat";
+    var hasil1 = dumet.split("a");
+    document.write hasil1;
+</script>
